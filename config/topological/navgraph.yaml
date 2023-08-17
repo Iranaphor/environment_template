@@ -1,0 +1,812 @@
+%YAML 1.2
+%TAG ! tag:fawkesrobotics.org,navgraph/
+---
+graph-name: LLSF
+root: SW
+
+default-properties:
+    # Max. distance between actual and target positions to deem the target
+    # reached. This value is for intermediate nodes on a path; m
+    # The value can be overwritten per node in the graph file.
+    - travel_tolerance: 0.7
+
+    # Max. distance between actual and target positions to deem the target
+    # reached. This value is for the last node on a path; m
+    # The value can be overwritten per node in the graph file.
+    - target_tolerance: 0.3
+
+    # Max. distance between actual and target orientation to deem the target
+    # reached. This value is for the last node on a path; rad
+    - orientation_tolerance: 0.6
+
+    # When following a plan the robot will check all upcoming nodes if they
+    # are close to the robot within this tolerance. If so, they take a shortcut
+    # and will go to the node in the plan after the shortcut node.
+    # This is potentially dangerous depending on the graph and navigator as it
+    # might violate the typical graph constraint of only having direct-line-of-tavel
+    # connections. The value can be overidden with a node property of the same name; m
+    - shortcut_tolerance: 0.7
+
+nodes:
+# Highway points:
+
+  - name: P11
+    pos: [-4.48, 1.12]
+    properties:
+       - highway_exit
+
+  - !unconnected
+    name: C-ins-in
+    pos: [5.5, 1.1]
+    properties:
+      - orientation: 3.14
+
+  - !unconnected
+    name: C-ins-out
+    pos: [6.5, 1.1]
+    properties:
+      - orientation: 3.14
+
+  - name: P12
+    pos: [-4.48, 2.24]
+    properties:
+       - highway_exit
+  - name: P13
+    pos: [-4.48, 3.36]
+    properties:
+      - highway_exit
+  - name: P14
+    pos: [-4.48, 4.48]
+  - name: P21
+    pos: [-3.36, 1.12]
+  - name: P22
+    pos: [-3.36, 2.24]
+  - name: P23
+    pos: [-3.36, 3.36]
+  - name: P24
+    pos: [-3.36, 4.48]
+  - name: P31
+    pos: [-2.24, 1.12]
+  - name: P32
+    pos: [-2.24, 2.24]
+  - name: P33
+    pos: [-2.24, 3.36]
+  - name: P34
+    pos: [-2.24, 4.48]
+  - name: P41
+    pos: [-1.12, 1.12]
+  - name: P42
+    pos: [-1.12, 2.24]
+  - name: P43
+    pos: [-1.12, 3.36]
+  - name: P44
+    pos: [-1.12, 4.48]
+  - name: P51
+    pos: [0, 1.12]
+  - name: P52
+    pos: [0, 2.24]
+  - name: P53
+    pos: [0, 3.36]
+  - name: P54
+    pos: [0, 4.48]
+  - name: P61
+    pos: [1.12, 1.12]
+  - name: P62
+    pos: [1.12, 2.24]
+  - name: P63
+    pos: [1.12, 3.36]
+  - name: P64
+    pos: [1.12, 4.48]
+  - name: P71
+    pos: [2.24, 1.12]
+  - name: P72
+    pos: [2.24, 2.24]
+  - name: P73
+    pos: [2.24, 3.36]
+  - name: P74
+    pos: [2.24, 4.48]
+  - name: P81
+    pos: [3.36, 1.12]
+  - name: P82
+    pos: [3.36, 2.24]
+  - name: P83
+    pos: [3.36, 3.36]
+  - name: P84
+    pos: [3.36, 4.48]
+  - name: P91
+    pos: [4.48, 1.12]
+    properties:
+       - highway_exit
+  - name: P92
+    pos: [4.48, 2.24]
+    properties:
+       - highway_exit
+  - name: P93
+    pos: [4.48, 3.36]
+    properties:
+       - highway_exit
+  - name: P94
+    pos: [4.48, 4.48]
+
+# Arrival points for machines
+# right side
+  - name: M1
+    pos: [0.56, 1.23]
+    properties:
+      - orientation: 1.57
+  - name: M2
+    pos: [0.56, 3.25]
+    properties:
+      - orientation: -1.57
+  - name: M3
+    pos: [2.13, 1.68]
+    properties:
+      - orientation: 3.14
+      - leave_right
+  - name: M4
+    pos: [1.23, 2.8]
+    properties:
+      - orientation: 0
+  - name: M5
+    pos: [1.23, 3.92]
+    properties:
+      - orientation: 0
+  - name: M6
+    pos: [2.8, 2.13]
+    properties:
+      - orientation: -1.57
+  - name: M7
+    pos: [2.8, 3.47]
+    properties:
+      - orientation: 1.57
+  - name: M8
+    pos: [2.35, 5.04]
+    properties:
+      - orientation: 0
+      - leave_right
+  - name: M9
+    pos: [4.35, 1.68]
+    properties:
+      - orientation: 3.14
+      - leave_right
+  - name: M10
+    pos: [3.92, 3.25]
+    properties:
+      - orientation: -1.57
+      - leave_right
+  - name: M11
+    pos: [3.92, 4.59]
+    properties:
+      - orientation: 1.57
+  - name: M12
+    pos: [5.04, 4.59]
+    properties:
+      - orientation: 1.57
+  - name: R1
+    pos: [1.01, 5.04]
+    properties:
+      - orientation: 3.14
+# left side
+  - name: M13
+    pos: [-0.56, 1.23]
+    properties:
+      - orientation: 1.57
+  - name: M14
+    pos: [-0.56, 3.25]
+    properties:
+      - orientation: -1.57
+  - name: M15
+    pos: [-2.13, 1.68]
+    properties:
+      - orientation: 0
+  - name: M16
+    pos: [-1.23, 2.8]
+    properties:
+      - orientation: 3.14
+  - name: M17
+    pos: [-1.23, 3.92]
+    properties:
+      - orientation: 3.14
+  - name: M18
+    pos: [-2.8, 2.13]
+    properties:
+      - orientation: -1.57
+  - name: M19
+    pos: [-2.8, 3.47]
+    properties:
+      - orientation: 1.57
+  - name: M20
+    pos: [-2.35, 5.04]
+    properties:
+      - orientation: 3.14
+  - name: M21
+    pos: [-4.35, 1.68]
+    properties:
+      - orientation: 0
+  - name: M22
+    pos: [-3.92, 3.25]
+    properties:
+      - orientation: -1.57
+  - name: M23
+    pos: [-3.92, 4.59]
+    properties:
+      - orientation: 1.57
+  - name: M24
+    pos: [-5.04, 4.59]
+    properties:
+      - orientation: 1.57
+      - leave_right
+  - name: R2
+    pos: [-1.01, 5.04]
+    properties:
+      - orientation: 0
+      - leave_right
+
+# Highway exits:
+        
+  - name: M1H
+    pos: [0.56, 1.12]
+    properties:
+      - highway_exit
+  - name: M2H
+    pos: [0.56, 3.36]
+    properties:
+      - highway_exit
+  - name: M3H
+    pos: [2.24, 1.68]
+    properties:
+      - highway_exit
+  - name: M4H
+    pos: [1.12, 2.8]
+    properties:
+      - highway_exit
+  - name: M5H
+    pos: [1.12, 3.92]
+    properties:
+      - highway_exit
+  - name: M6H
+    pos: [2.8, 2.24]
+    properties:
+      - highway_exit
+  - name: M7H
+    pos: [2.8, 3.36]
+    properties:
+      - highway_exit
+  - name: M8H
+    pos: [2.24, 5.04]
+    properties:
+      - highway_exit
+  - name: M9H
+    pos: [4.48, 1.68]
+    properties:
+      - highway_exit
+  - name: M10H
+    pos: [3.92, 3.36]
+    properties:
+      - highway_exit
+  - name: M11H
+    pos: [3.92, 4.48]
+    properties:
+      - highway_exit
+  - name: M12H
+    pos: [4.84, 4.48]
+    properties:
+      - highway_exit
+  - name: R1H
+    pos: [1.12, 5.04]
+    properties:
+      - highway_exit
+  
+  - name: M13H
+    pos: [-0.56, 1.12]
+    properties:
+      - highway_exit
+  - name: M14H
+    pos: [-0.56, 3.36]
+    properties:
+      - highway_exit
+  - name: M15H
+    pos: [-2.24, 1.68]
+    properties:
+      - highway_exit
+  - name: M16H
+    pos: [-1.12, 2.8]
+    properties:
+      - highway_exit
+  - name: M17H
+    pos: [-1.12, 3.92]
+    properties:
+      - highway_exit
+  - name: M18H
+    pos: [-2.8, 2.24]
+    properties:
+      - highway_exit
+  - name: M19H
+    pos: [-2.8, 3.36]
+    properties:
+      - highway_exit
+  - name: M20H
+    pos: [-2.24, 5.04]
+    properties:
+      - highway_exit
+  - name: M21H
+    pos: [-4.48, 1.68]
+    properties:
+      - highway_exit
+  - name: M22H
+    pos: [-3.92, 3.36]
+    properties:
+      - highway_exit
+  - name: M23H
+    pos: [-3.92, 4.48]
+    properties:
+      - highway_exit
+  - name: M24H
+    pos: [-4.84, 4.48]
+    properties:
+      - highway_exit
+  - name: R2H
+    pos: [-1.12, 5.04]
+    properties:
+      - highway_exit
+
+# special points:
+        
+  - name: deliver1
+    pos: [4.7, 2.99]
+    properties:
+      - orientation: 0.0
+  - name: deliver1a
+    pos: [4.7, 2.6]
+    properties:
+      - orientation: 0.0
+  - name: deliver2a
+    pos: [-4.7, 2.99]
+    properties:
+      - orientation: 3.14
+  - name: deliver2
+    pos: [-4.7, 2.6]
+    properties:
+      - orientation: 3.14
+  - name: IA1H
+    pos: [2.25, 1.0]
+    properties:
+      - highway_exit
+  - name: IA1H2
+    pos: [1.15, 1.0]
+    properties:
+      - highway_exit
+  - name: Ins1
+    pos: [2.25, 0.80]
+    properties:
+      - orientation: -1.57
+  - name: Ins1Sec
+    pos: [1.15, 0.80]
+    properties:
+      - orientation: -1.57
+  - name: IA2H
+    pos: [-1.15, 1.0]
+    properties:
+      - highway_exit
+  - name: IA2H2
+    pos: [-2.25, 1.0]
+    properties:
+      - highway_exit
+  - name: Ins2
+    pos: [-1.15, 0.80]
+    properties:
+      - orientation: -1.57
+  - name: Ins2Sec
+    pos: [-2.25, 0.80]
+    properties:
+      - orientation: -1.57
+  - name: WAIT_FOR_INS_1_ROBOTINO_1
+    pos: [3.36, 0.56]
+    properties:
+      - orientation: 1.57
+  - name: WAIT_FOR_INS_2_ROBOTINO_1
+    pos: [-3.36, 0.56]
+    properties:
+      - orientation: 1.57
+  - name: WAIT_FOR_INS_1_ROBOTINO_2
+    pos: [0, 0.56]
+    properties:
+      - orientation: 1.57
+  - name: WAIT_FOR_INS_2_ROBOTINO_2
+    pos: [0, 0.56]
+    properties:
+      - orientation: 1.57
+  - name: WAIT_FOR_INS_1_ROBOTINO_3
+    pos: [4.48, 0.56]
+    properties:
+      - orientation: 1.57
+  - name: WAIT_FOR_INS_2_ROBOTINO_3
+    pos: [-4.48, 0.56]
+    properties:
+      - orientation: 1.57
+  - name: WAIT_FOR_DELIVER_1
+    pos: [5.04, 3.92]
+    properties:
+      - orientation: -1.57
+  - name: WAIT_FOR_DELIVER_2
+    pos: [-5.04, 3.92]
+    properties:
+      - orientation: -1.57
+# Wait points for machines in a row (free position of the four possible machine positions and WAIT_FOR_DELIVER for M12 and M24)
+  - name: WAIT_FOR_ROW_1
+    pos: [-3.92, 3.92]
+  - name: WAIT_FOR_ROW_2
+    pos: [-2.8, 2.8]
+  - name: WAIT_FOR_ROW_3
+    pos: [-1.68, 5.04]
+  - name: WAIT_FOR_ROW_4
+    pos: [-0.56, 3.92]
+  - name: WAIT_FOR_ROW_5
+    pos: [0.56, 3.92]
+  - name: WAIT_FOR_ROW_6
+    pos: [1.68, 5.04]
+  - name: WAIT_FOR_ROW_7
+    pos: [2.8, 2.8]
+  - name: WAIT_FOR_ROW_8
+    pos: [3.92, 3.92]
+
+# Exploration Points
+# TODO: optimize
+
+# right side
+  - name: ExpM1
+    pos: [0.56, 1.23]
+    properties:
+      - orientation: 1.57
+  - name: ExpM2
+    pos: [0.56, 3.25]
+    properties:
+      - orientation: -1.57
+  - name: ExpM3
+    pos: [2.13, 1.68]
+    properties:
+      - orientation: 3.14
+  - name: ExpM4
+    pos: [1.23, 2.8]
+    properties:
+      - orientation: 0
+  - name: ExpM5
+    pos: [1.23, 3.92]
+    properties:
+      - orientation: 0
+  - name: ExpM6
+    pos: [2.8, 2.13]
+    properties:
+      - orientation: -1.57
+  - name: ExpM7
+    pos: [2.8, 3.47]
+    properties:
+      - orientation: 1.57
+  - name: ExpM8
+    pos: [2.35, 5.04]
+    properties:
+      - orientation: 0
+  - name: ExpM9
+    pos: [4.35, 1.68]
+    properties:
+      - orientation: 3.14
+  - name: ExpM10
+    pos: [3.92, 3.25]
+    properties:
+      - orientation: -1.57
+  - name: ExpM11
+    pos: [3.92, 4.59]
+    properties:
+      - orientation: 1.57
+  - name: ExpM12
+    pos: [5.04, 4.59]
+    properties:
+      - orientation: 1.57
+# left side
+  - name: ExpM13
+    pos: [-0.56, 1.23]
+    properties:
+      - orientation: 1.57
+  - name: ExpM14
+    pos: [-0.56, 3.25]
+    properties:
+      - orientation: -1.57
+  - name: ExpM15
+    pos: [-2.13, 1.68]
+    properties:
+      - orientation: 0
+  - name: ExpM16
+    pos: [-1.23, 2.8]
+    properties:
+      - orientation: 3.14
+  - name: ExpM17
+    pos: [-1.23, 3.92]
+    properties:
+      - orientation: 3.14
+  - name: ExpM18
+    pos: [-2.8, 2.13]
+    properties:
+      - orientation: -1.57
+  - name: ExpM19
+    pos: [-2.8, 3.47]
+    properties:
+      - orientation: 1.57
+  - name: ExpM20
+    pos: [-2.35, 5.04]
+    properties:
+      - orientation: 3.14
+  - name: ExpM21
+    pos: [-4.35, 1.68]
+    properties:
+      - orientation: 0
+  - name: ExpM22
+    pos: [-3.92, 3.25]
+    properties:
+      - orientation: -1.57
+  - name: ExpM23
+    pos: [-3.92, 4.59]
+    properties:
+      - orientation: 1.57
+  - name: ExpM24
+    pos: [-5.04, 4.59]
+    properties:
+      - orientation: 1.57
+
+# Puck Storage Points:
+  - name: D1_PUCK_STORAGE_1
+    pos: [5.00, 1.68]
+    properties:
+      - orientation: 0.0
+  - name: D1_PUCK_STORAGE_2
+    pos: [5.00, 1.12]
+    properties:
+      - orientation: 0.0
+  - name: D2_PUCK_STORAGE_1
+    pos: [-5.00, 1.68]
+    properties:
+      - orientation: 3.14
+  - name: D2_PUCK_STORAGE_2
+    pos: [-5.00, 1.12]
+    properties:
+      - orientation: 3.14
+
+# Possible directional tags:
+# !bidir (bidirectional, default), !dir (directed)
+connections:
+
+# Highway connections:
+# horizontal
+  - [P11, M21H]
+  - [M21H, P12]
+  - [P12, P13]
+  - [P13, P14]
+  - [P21, P22]
+  - [P22, P23]
+  - [P23, P24]
+  - [P31, M15H]
+  - [M15H, P32]
+  - [P32, P33]
+  - [P33, P34]
+  - [P34, M20H]
+  - [P41, P42]
+  - [P42, M16H]
+  - [M16H, P43]
+  - [P43, M17H]
+  - [M17H, P44]
+  - [P44, R2H]
+  - !split-intersection [P43, P44]
+  - [P51, P52]
+  - [P52, P53]
+  - [P53, P54]
+  - [P61, P62]
+  - [P62, M4H]
+  - [M4H, P63]
+  - [P63, M5H]
+  - [M5H, P64]
+  - !split-intersection [P63, P64]
+  - [P64, R1H]
+  - [P71, M3H]
+  - [M3H, P72]
+  - [P72, P73]
+  - [P73, P74]
+  - [P74, M8H]
+  - [P81, P82]
+  - [P82, P83]
+  - [P83, P84]
+  - [P91, M9H]
+  - [M9H, P92]
+  - [P92, P93]
+  - [P93, P94]
+#vertical
+  - [P11, P21]
+  - [P21, P31]
+  - [P31, P41]
+  - [P41, M13H]
+  - [M13H, P51]
+  - [P51, M1H]
+  - [M1H, P61]
+  - [P61, P71]
+  - [P71, P81]
+  - [P81, P91]
+  
+  - [P12, P22]
+  - [P22, M18H]
+  - [M18H, P32]
+  - [P32, P42]
+  - [P42, P52]
+  - [P52, P62]
+  - [P62, P72]
+  - [P72, M6H]
+  - [M6H, P82]
+  - [P82, P92]
+  
+  - [P13, M22H]
+  - [M22H, P23]
+  - [P23, M19H]
+  - [M19H, P33]
+  - [P33, P43]
+  - [P43, M14H]
+  - [M14H, P53]
+  - [P53, M2H]
+  - [M2H, P63]
+  - [P63, P73]
+  - [P73, M7H]
+  - [M7H, P83]
+  - [P83, M10H]
+  - [M10H, P93]
+  
+  - [M24H, P14]
+  - [P14, M23H]
+  - [M23H, P24]
+  - [P24, P34]
+  - [P34, P44]
+  - [P44, P54]
+  - [P54, P64]
+  - [P64, P74]
+  - [P74, P84]
+  - [P84, M11H]
+  - [M11H, P94]
+  - [P94, M12H]
+
+# diagonal links
+# (unnecessary because of wait points at the diagonals)
+  # - [P22, P33]
+  # - [P23, P32]
+  # - [P13, P24]
+  # - [P23, P14]
+  # - [P43, P54]
+  # - [P53, P44]
+  # - [P53, P64]
+  # - [P63, P54]
+  # - [P72, P83]
+  # - [P82, P73]
+  # - [P83, P94]
+  # - [P93, P84]
+
+# connection of machines
+
+  - [M1, M1H]
+  - [M2, M2H]
+  - [M3, M3H]
+  - [M4, M4H]
+  - !split-intersection [M5, M5H]
+  - [M6, M6H]
+  - [M7, M7H]
+  - [M8, M8H]
+  - [M9, M9H]
+  - [M10, M10H]
+  - [M11, M11H]
+  - [M12, M12H]
+  - [M13, M13H]
+  - [M14, M14H]
+  - [M15, M15H]
+  - [M16, M16H]
+  - !split-intersection [M17, M17H]
+  - [M18, M18H]
+  - [M19, M19H]
+  - [M20, M20H]
+  - [M21, M21H]
+  - [M22, M22H]
+  - [M23, M23H]
+  - [M24, M24H]
+  - [R1, R1H]
+  - [R2, R2H]
+
+# connection of special points
+
+  - !split-intersection [IA1H, P61]
+  - !split-intersection [IA1H, P71]
+  - [IA1H, Ins1]
+  - [IA1H2, P61]
+  - !split-intersection [IA1H2, P71]
+  - [IA1H2, Ins1Sec]
+  - !split-intersection [IA2H, P31]
+  - !split-intersection [IA2H, P41]
+  - [IA2H, Ins2]
+  - !split-intersection [IA2H2, P31]
+  - !split-intersection [IA2H2, P41]
+  - [IA2H2, Ins2Sec]
+
+  - !split-intersection [P92,  deliver1]
+  - !split-intersection [P92,  deliver1a]
+  - [P93,  deliver1]
+  - !split-intersection [P93,  deliver1a]
+
+  - !split-intersection [P12,  deliver2]
+  - !split-intersection [P12,  deliver2a]
+  - !split-intersection [P13,  deliver2]
+  - !split-intersection [P13,  deliver2a]
+
+  - [P81, WAIT_FOR_INS_1_ROBOTINO_1]
+  - [P21, WAIT_FOR_INS_2_ROBOTINO_1]
+  - [P51, WAIT_FOR_INS_1_ROBOTINO_2]
+  - [P51, WAIT_FOR_INS_2_ROBOTINO_2]
+  - [P91, WAIT_FOR_INS_1_ROBOTINO_3]
+  - [P11, WAIT_FOR_INS_2_ROBOTINO_3]
+  - !dir [P94, WAIT_FOR_DELIVER_1]
+  - !dir [WAIT_FOR_DELIVER_1, P93]
+  - !dir [P14, WAIT_FOR_DELIVER_2]
+  - !dir [WAIT_FOR_DELIVER_2, P13]
+
+# connection of Exploration points
+
+  - [ExpM1, M1H]
+  - [ExpM2, M2H]
+  - [ExpM3, M3H]
+  - [ExpM4, M4H]
+  - !split-intersection [ExpM5, M5H]
+  - [ExpM6, M6H]
+  - [ExpM7, M7H]
+  - [ExpM8, M8H]
+  - [ExpM9, M9H]
+  - [ExpM10, M10H]
+  - [ExpM11, M11H]
+  - [ExpM12, M12H]
+  - [ExpM13, M13H]
+  - [ExpM14, M14H]
+  - [ExpM15, M15H]
+  - [ExpM16, M16H]
+  - !split-intersection [ExpM17, M17H]
+  - [ExpM18, M18H]
+  - [ExpM19, M19H]
+  - [ExpM20, M20H]
+  - [ExpM21, M21H]
+  - [ExpM22, M22H]
+  - [ExpM23, M23H]
+  - [ExpM24, M24H]
+
+  # connection of wait points for rows
+  - [WAIT_FOR_ROW_1, P13]
+  - [WAIT_FOR_ROW_1, P14]
+  - [WAIT_FOR_ROW_1, P23]
+  - [WAIT_FOR_ROW_1, P24]
+  - [WAIT_FOR_ROW_2, P22]
+  - [WAIT_FOR_ROW_2, P23]
+  - [WAIT_FOR_ROW_2, P32]
+  - [WAIT_FOR_ROW_2, P33]
+  - [WAIT_FOR_ROW_3, P34]
+  - [WAIT_FOR_ROW_3, P44]
+  - [WAIT_FOR_ROW_4, P43]
+  - [WAIT_FOR_ROW_4, P44]
+  - [WAIT_FOR_ROW_4, P53]
+  - [WAIT_FOR_ROW_4, P54]
+  - [WAIT_FOR_ROW_5, P53]
+  - [WAIT_FOR_ROW_5, P54]
+  - [WAIT_FOR_ROW_5, P63]
+  - [WAIT_FOR_ROW_5, P64]
+  - [WAIT_FOR_ROW_6, P64]
+  - [WAIT_FOR_ROW_6, P74]
+  - [WAIT_FOR_ROW_7, P72]
+  - [WAIT_FOR_ROW_7, P73]
+  - [WAIT_FOR_ROW_7, P82]
+  - [WAIT_FOR_ROW_7, P83]
+  - [WAIT_FOR_ROW_8, P83]
+  - [WAIT_FOR_ROW_8, P84]
+  - [WAIT_FOR_ROW_8, P93]
+  - [WAIT_FOR_ROW_8, P94]
+
+  # Puck storage connections
+  - [M9H, D1_PUCK_STORAGE_1]
+  - [P91, D1_PUCK_STORAGE_2]
+  - [M21H, D2_PUCK_STORAGE_1]
+  - [P11, D2_PUCK_STORAGE_2]
