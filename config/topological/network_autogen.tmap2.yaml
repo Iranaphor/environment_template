@@ -258,36 +258,6 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot
       restrictions_runtime: obstacleFree_1
-    - edge_id: P12_deliver2
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: deliver2
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: P12_deliver2a
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: deliver2a
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
 - meta:
     map: r_gep
     node: P13
@@ -355,51 +325,6 @@ nodes:
             frame_id: $node.parent_frame
           pose: $node.pose
       node: M22H
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: P13_deliver2
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: deliver2
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: P13_deliver2a
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: deliver2a
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: P13_WAIT_FOR_DELIVER_2
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: WAIT_FOR_DELIVER_2
       recovery_behaviours_config: ''
       restrictions_planning: robot
       restrictions_runtime: obstacleFree_1
@@ -485,21 +410,6 @@ nodes:
             frame_id: $node.parent_frame
           pose: $node.pose
       node: M23H
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: P14_WAIT_FOR_DELIVER_2
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: WAIT_FOR_DELIVER_2
       recovery_behaviours_config: ''
       restrictions_planning: robot
       restrictions_runtime: obstacleFree_1
@@ -973,36 +883,6 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot
       restrictions_runtime: obstacleFree_1
-    - edge_id: P31_IA2H
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: IA2H
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: P31_IA2H2
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: IA2H2
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
 - meta:
     map: r_gep
     node: P32
@@ -1373,36 +1253,6 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot
       restrictions_runtime: obstacleFree_1
-    - edge_id: P41_IA2H
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: IA2H
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: P41_IA2H2
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: IA2H2
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
 - meta:
     map: r_gep
     node: P42
@@ -1543,21 +1393,6 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot
       restrictions_runtime: obstacleFree_1
-    - edge_id: P43_P44
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: P44
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
     - edge_id: P43_P33
       action: move_base
       action_type: move_base_msgs/MoveBaseGoal
@@ -1655,21 +1490,6 @@ nodes:
             frame_id: $node.parent_frame
           pose: $node.pose
       node: R2H
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: P44_P43
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: P43
       recovery_behaviours_config: ''
       restrictions_planning: robot
       restrictions_runtime: obstacleFree_1
@@ -2203,21 +2023,6 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot
       restrictions_runtime: obstacleFree_1
-    - edge_id: P61_IA1H
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: IA1H
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
     - edge_id: P61_IA1H2
       action: move_base
       action_type: move_base_msgs/MoveBaseGoal
@@ -2373,21 +2178,6 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot
       restrictions_runtime: obstacleFree_1
-    - edge_id: P63_P64
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: P64
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
     - edge_id: P63_M2H
       action: move_base
       action_type: move_base_msgs/MoveBaseGoal
@@ -2470,21 +2260,6 @@ nodes:
             frame_id: $node.parent_frame
           pose: $node.pose
       node: M5H
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: P64_P63
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: P63
       recovery_behaviours_config: ''
       restrictions_planning: robot
       restrictions_runtime: obstacleFree_1
@@ -2630,36 +2405,6 @@ nodes:
             frame_id: $node.parent_frame
           pose: $node.pose
       node: P81
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: P71_IA1H
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: IA1H
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: P71_IA1H2
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: IA1H2
       recovery_behaviours_config: ''
       restrictions_planning: robot
       restrictions_runtime: obstacleFree_1
@@ -3503,36 +3248,6 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot
       restrictions_runtime: obstacleFree_1
-    - edge_id: P92_deliver1
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: deliver1
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: P92_deliver1a
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: deliver1a
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
 - meta:
     map: r_gep
     node: P93
@@ -3618,36 +3333,6 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot
       restrictions_runtime: obstacleFree_1
-    - edge_id: P93_deliver1a
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: deliver1a
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: P93_WAIT_FOR_DELIVER_1
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: WAIT_FOR_DELIVER_1
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
     - edge_id: P93_WAIT_FOR_ROW_8
       action: move_base
       action_type: move_base_msgs/MoveBaseGoal
@@ -3730,21 +3415,6 @@ nodes:
             frame_id: $node.parent_frame
           pose: $node.pose
       node: M12H
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: P94_WAIT_FOR_DELIVER_1
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: WAIT_FOR_DELIVER_1
       recovery_behaviours_config: ''
       restrictions_planning: robot
       restrictions_runtime: obstacleFree_1
@@ -3947,22 +3617,7 @@ nodes:
     restrictions_planning: robot
     restrictions_runtime: obstacleFree_1
     verts: *vert1
-    edges:
-    - edge_id: M5_M5H
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: M5H
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
+    edges: []
 - meta:
     map: r_gep
     node: M6
@@ -4467,22 +4122,7 @@ nodes:
     restrictions_planning: robot
     restrictions_runtime: obstacleFree_1
     verts: *vert1
-    edges:
-    - edge_id: M17_M17H
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: M17H
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
+    edges: []
 - meta:
     map: r_gep
     node: M18
@@ -5195,36 +4835,6 @@ nodes:
             frame_id: $node.parent_frame
           pose: $node.pose
       node: P64
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: M5H_M5
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: M5
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: M5H_ExpM5
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: ExpM5
       recovery_behaviours_config: ''
       restrictions_planning: robot
       restrictions_runtime: obstacleFree_1
@@ -6258,36 +5868,6 @@ nodes:
       recovery_behaviours_config: ''
       restrictions_planning: robot
       restrictions_runtime: obstacleFree_1
-    - edge_id: M17H_M17
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: M17
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: M17H_ExpM17
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: ExpM17
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
 - meta:
     map: r_gep
     node: M18H
@@ -6948,21 +6528,6 @@ nodes:
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
-    - edge_id: deliver1_P92
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: P92
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
     - edge_id: deliver1_P93
       action: move_base
       action_type: move_base_msgs/MoveBaseGoal
@@ -7002,37 +6567,7 @@ nodes:
     restrictions_planning: robot
     restrictions_runtime: obstacleFree_1
     verts: *vert1
-    edges:
-    - edge_id: deliver1a_P92
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: P92
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: deliver1a_P93
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: P93
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
+    edges: []
 - meta:
     map: r_gep
     node: deliver2a
@@ -7057,37 +6592,7 @@ nodes:
     restrictions_planning: robot
     restrictions_runtime: obstacleFree_1
     verts: *vert1
-    edges:
-    - edge_id: deliver2a_P12
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: P12
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: deliver2a_P13
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: P13
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
+    edges: []
 - meta:
     map: r_gep
     node: deliver2
@@ -7112,37 +6617,7 @@ nodes:
     restrictions_planning: robot
     restrictions_runtime: obstacleFree_1
     verts: *vert1
-    edges:
-    - edge_id: deliver2_P12
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: P12
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: deliver2_P13
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: P13
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
+    edges: []
 - meta:
     map: r_gep
     node: IA1H
@@ -7168,36 +6643,6 @@ nodes:
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
-    - edge_id: IA1H_P61
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: P61
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: IA1H_P71
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: P71
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
     - edge_id: IA1H_Ins1
       action: move_base
       action_type: move_base_msgs/MoveBaseGoal
@@ -7250,21 +6695,6 @@ nodes:
             frame_id: $node.parent_frame
           pose: $node.pose
       node: P61
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: IA1H2_P71
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: P71
       recovery_behaviours_config: ''
       restrictions_planning: robot
       restrictions_runtime: obstacleFree_1
@@ -7388,36 +6818,6 @@ nodes:
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
-    - edge_id: IA2H_P31
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: P31
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: IA2H_P41
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: P41
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
     - edge_id: IA2H_Ins2
       action: move_base
       action_type: move_base_msgs/MoveBaseGoal
@@ -7458,36 +6858,6 @@ nodes:
     restrictions_runtime: obstacleFree_1
     verts: *vert1
     edges:
-    - edge_id: IA2H2_P31
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: P31
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: IA2H2_P41
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: P41
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
     - edge_id: IA2H2_Ins2Sec
       action: move_base
       action_type: move_base_msgs/MoveBaseGoal
@@ -7847,37 +7217,7 @@ nodes:
     restrictions_planning: robot
     restrictions_runtime: obstacleFree_1
     verts: *vert1
-    edges:
-    - edge_id: WAIT_FOR_DELIVER_1_P94
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: P94
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: WAIT_FOR_DELIVER_1_P93
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: P93
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
+    edges: []
 - meta:
     map: r_gep
     node: WAIT_FOR_DELIVER_2
@@ -7902,37 +7242,7 @@ nodes:
     restrictions_planning: robot
     restrictions_runtime: obstacleFree_1
     verts: *vert1
-    edges:
-    - edge_id: WAIT_FOR_DELIVER_2_P14
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: P14
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
-    - edge_id: WAIT_FOR_DELIVER_2_P13
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: P13
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
+    edges: []
 - meta:
     map: r_gep
     node: WAIT_FOR_ROW_1
@@ -8737,22 +8047,7 @@ nodes:
     restrictions_planning: robot
     restrictions_runtime: obstacleFree_1
     verts: *vert1
-    edges:
-    - edge_id: ExpM5_M5H
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: M5H
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
+    edges: []
 - meta:
     map: r_gep
     node: ExpM6
@@ -9217,22 +8512,7 @@ nodes:
     restrictions_planning: robot
     restrictions_runtime: obstacleFree_1
     verts: *vert1
-    edges:
-    - edge_id: ExpM17_M17H
-      action: move_base
-      action_type: move_base_msgs/MoveBaseGoal
-      config: []
-      fail_policy: fail
-      fluid_navigation: true
-      goal:
-        target_pose:
-          header:
-            frame_id: $node.parent_frame
-          pose: $node.pose
-      node: M17H
-      recovery_behaviours_config: ''
-      restrictions_planning: robot
-      restrictions_runtime: obstacleFree_1
+    edges: []
 - meta:
     map: r_gep
     node: ExpM18
