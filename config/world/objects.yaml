@@ -5,6 +5,10 @@ ground:
 
 models:
 
+
+ADD SOME TREEES
+and work out how to better handle the xml data and objects
+
   item_a:
     type: model_1
     position: {'x': 0.0, 'y': 0.0, 'z': 0.0}
