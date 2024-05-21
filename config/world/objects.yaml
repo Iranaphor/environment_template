@@ -3,35 +3,16 @@ ground:
     height: 20
     flat: True
 
-models:
+components:
 
-  item_a:
-    type: model_1
-    position: {'x': 0.0, 'y': 0.0, 'z': 0.0}
-    orientation: {'roll': 0.0, 'pitch': 0.0, 'yaw': 0.0}
+#  - type: {'reference': 'box', 'object': 'primative'}
+#    size: {'x': 1.0, 'y': 1.0, 'z': 1.0}
+#    position: {'x': 0.0, 'y': 0.0, 'z': 0.0}
+#    orientation: {'roll': 0.0, 'pitch': 0.0, 'yaw': 0.0}
 
-  item_b:
-    type: model_1
-    position: {'x': 10.0, 'y': 0.0, 'z': 0.0}
-    orientation: {'roll': 0.0, 'pitch': 0.0, 'yaw': 0.0}
+#  - type: {'reference': 'box', 'object': 'primative'}
+#    size: {'x': 2.0, 'y': 0.5, 'z': 1.0}
 
-  item_c:
-    type: model_2
-    position: {'x': 10.0, 'y': 10.0, 'z': 0.0}
-    orientation: {'roll': 0.0, 'pitch': 0.0, 'yaw': 0.0}
-
-  item_d:
-    type: model_3
-    position: {'x': -10.0, 'y': 20.0, 'z': 0.0}
-    orientation: {'roll': 0.0, 'pitch': 0.0, 'yaw': 0.0}
-
-  item_e:
-    type: model_2
-    position: {'x': -10.0, 'y': -10.0, 'z': 0.0}
-    orientation: {'roll': 0.0, 'pitch': 0.0, 'yaw': 0.0}
-
-  item_d:
-    type: model_3
-    position: {'x': 0.0, 'y': -10.0, 'z': 0.0}
-    orientation: {'roll': 0.0, 'pitch': 0.0, 'yaw': 0.0}
-
+#  - type: {'reference': 'tree.yaml', 'object': 'custom'}
+  - type: {'reference': 'shade.yaml', 'object': 'custom'}
+    anchor: {'pose', 'orientation'}

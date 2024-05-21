@@ -1,0 +1,57 @@
+components:
+  - type: {'reference': 'cylinder', 'object': 'primative'}
+    position: {'x': 1.0, 'y': 5.0, 'z': 0.5}
+    radius: 0.025
+    length: 1.0
+  - type: {'reference': 'cylinder', 'object': 'primative'}
+    position: {'x': 1.0, 'y': -5.0, 'z': 0.5}
+    radius: 0.025
+    length: 1.0
+
+  - type: {'reference': 'cylinder', 'object': 'primative'}
+    position: {'x': -1.0, 'y': 5.0, 'z': 0.75}
+    radius: 0.025
+    length: 1.5
+  - type: {'reference': 'cylinder', 'object': 'primative'}
+    position: {'x': -1.0, 'y': -5.0, 'z': 0.75}
+    radius: 0.025
+    length: 1.5
+
+  - type: {'reference': 'cylinder', 'object': 'primative'}
+    position: {'x': -0.25, 'y': 5.0, 'z': 0.66}
+    radius: 0.025
+    length: 1.32
+  - type: {'reference': 'cylinder', 'object': 'primative'}
+    position: {'x': -0.25, 'y': -5.0, 'z': 0.66}
+    radius: 0.025
+    length: 1.32
+
+  - type: {'reference': 'box', 'object': 'primative'}
+    size: {'x': 0.015, 'y': 10.0, 'z': 2.15}
+    position: {'x': 0.0, 'y': 0.0, 'z': 1.25}
+    orientation: {'roll': 0.0, 'pitch': -1.3, 'yaw': 0.0}
+    material: {'name': 'Blue'}
+
+
+  - type: {'reference': 'box', 'object': 'primative'}
+    size: {'x': 1.25, 'y': 0.015, 'z': 1.0}
+    position: {'x': 0.35, 'y': 5.0, 'z': 0.5}
+    material: {'name': 'Black'}
+  - type: {'reference': 'box', 'object': 'primative'}
+    size: {'x': 1.25, 'y': 0.015, 'z': 1.0}
+    position: {'x': 0.35, 'y': -5.0, 'z': 0.5}
+    material: {'name': 'Black'}
+
+  - type: {'reference': 'box', 'object': 'primative'}
+    size: {'x': 0.025, 'y': 10.0, 'z': 1.0}
+    position: {'x': 1.0, 'y': 0.0, 'z': 0.5}
+    orientation: {'roll': 0.0, 'pitch': 0.0, 'yaw': 0.0}
+    material: {'name': 'Yellow'}
+
+
+#1m on back
+#1.5m on front
+#2m between
+#panel on side
+#panel on back
+#panel on top
