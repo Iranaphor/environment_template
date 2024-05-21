@@ -3,9 +3,17 @@ description: 'simple rubber tree'
 
 components:
   - type: {'reference': 'cylinder', 'object': 'primative'}
-    size: {'x': 0.0, 'y': 0.0, 'z': 0.0}
-    position: {'x': 0.0, 'y': 0.0, 'z': 1.0}
-    orientation: {'roll': 0.0, 'pitch': 0.0, 'yaw': 0.0}
-    radius: 0.2
-    length: 1
-    name: 'tree'
+    position: {'x': 0.0, 'y': 0.0, 'z': 3.0}
+    material: {'name': 'WoodPallet'}
+    radius: 0.12
+    length: 6.0
+
+  - type: {'reference': 'cylinder', 'object': 'primative'}
+    position: {'x': 0.0, 'y': 0.0, 'z': 6.25}
+    material: {'name': 'GreenTransparent'}
+    radius: 2.5
+    length: 0.5
+
+#5.0m column
+#0.18m tree radius
+#3.0m row

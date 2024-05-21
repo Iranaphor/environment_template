@@ -1,0 +1,34 @@
+components:
+
+  - type: {'reference': 'plane', 'object': 'primative'}
+    width: 30.0
+    length: 30.0
+    material: {'name': 'DarkGrey'}
+
+  - type: {'reference': 'tree.yaml', 'object': 'custom'}
+    anchor: { 'position': {'x': 25.0, 'y': 0.0} }
+  - type: {'reference': 'tree.yaml', 'object': 'custom'}
+    anchor: { 'position': {'x': 25.0, 'y': 3.0} }
+  - type: {'reference': 'tree.yaml', 'object': 'custom'}
+    anchor: { 'position': {'x': 25.0, 'y': 6.0} }
+  - type: {'reference': 'tree.yaml', 'object': 'custom'}
+    anchor: { 'position': {'x': 25.0, 'y': 9.0} }
+  - type: {'reference': 'tree.yaml', 'object': 'custom'}
+    anchor: { 'position': {'x': 25.0, 'y': 12.0} }
+
+#  - type: {'reference': 'shade.yaml', 'object': 'custom'}
+#    anchor:
+#      position: {'x': -10, 'y': 6.0}
+#  - type: {'reference': 'shade.yaml', 'object': 'custom'}
+#    anchor:
+#      position: {'x': -8, 'y': 6.0}
+#  - type: {'reference': 'shade.yaml', 'object': 'custom'}
+#    anchor:
+#      position: {'x': -6, 'y': 6.0}
+#  - type: {'reference': 'shade.yaml', 'object': 'custom'}
+#    anchor:
+#      position: {'x': -4, 'y': 6.0}
+#  - type: {'reference': 'shade.yaml', 'object': 'custom'}
+#    anchor:
+#      position: {'x': -2, 'y': 6.0}
+
