@@ -1,22 +1,27 @@
 components:
 
   - type: {'reference': 'plane', 'object': 'primative'}
-    width: 30.0
-    length: 30.0
+    width: 100.0
+    length: 100.0
     material: {'name': 'DarkGrey'}
 
-  - type: {'reference': 'shade.yaml', 'object': 'custom'}
+#  - type: {'reference': 'column_connections.yaml', 'object': 'custom'}
+#    anchor:
+#      position: {'x': -10, 'y': 6.0}
+#  - type: {'reference': 'column_connections.yaml', 'object': 'custom'}
+#    anchor:
+#      position: {'x': -8, 'y': 6.0}
+#  - type: {'reference': 'column_connections.yaml', 'object': 'custom'}
+#    anchor:
+#      position: {'x': -6, 'y': 6.0}
+#  - type: {'reference': 'column_connections.yaml', 'object': 'custom'}
+#    anchor:
+#      position: {'x': -4, 'y': 6.0}
+#  - type: {'reference': 'column_connections.yaml', 'object': 'custom'}
+#    anchor:
+#      position: {'x': -2, 'y': 6.0}
+
+  - type: {'reference': 'double_structure.yaml', 'object': 'custom'}
     anchor:
-      position: {'x': -10, 'y': 6.0}
-  - type: {'reference': 'shade.yaml', 'object': 'custom'}
-    anchor:
-      position: {'x': -8, 'y': 6.0}
-  - type: {'reference': 'shade.yaml', 'object': 'custom'}
-    anchor:
-      position: {'x': -6, 'y': 6.0}
-  - type: {'reference': 'shade.yaml', 'object': 'custom'}
-    anchor:
-      position: {'x': -4, 'y': 6.0}
-  - type: {'reference': 'shade.yaml', 'object': 'custom'}
-    anchor:
-      position: {'x': -2, 'y': 6.0}
+      position: {'x': 0.0, 'y': 0.0}
+      orientation: {'yaw': 0.0}
