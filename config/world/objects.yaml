@@ -23,5 +23,9 @@ components:
 
   - type: {'reference': 'double_structure.yaml', 'object': 'custom'}
     anchor:
-      position: {'x': 0.0, 'y': 0.0}
+      position: {'x': 3.0, 'y': 0.0}
+      orientation: {'yaw': 0.0}
+  - type: {'reference': 'double_structure.yaml', 'object': 'custom'}
+    anchor:
+      position: {'x': 11.0, 'y': 0.0}
       orientation: {'yaw': 0.0}

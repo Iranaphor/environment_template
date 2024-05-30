@@ -1184,7 +1184,7 @@
       </link>
     </model>
     <model name='56_plane'>
-      <pose>0.0 0.0 0.01 0.0 0.0 0.0</pose>
+      <pose>-3.0 0.0 0.01 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1205,7 +1205,7 @@
       </link>
     </model>
     <model name='57_box'>
-      <pose>-2.4 0.0 0.2 0.0 0.0 0.0</pose>
+      <pose>-5.4 0.0 0.2 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1225,7 +1225,7 @@
       </link>
     </model>
     <model name='58_box'>
-      <pose>-0.8 0.0 0.2 0.0 0.0 0.0</pose>
+      <pose>-3.8 0.0 0.2 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1245,7 +1245,7 @@
       </link>
     </model>
     <model name='59_box'>
-      <pose>0.8 0.0 0.2 0.0 0.0 0.0</pose>
+      <pose>-2.2 0.0 0.2 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1265,7 +1265,7 @@
       </link>
     </model>
     <model name='60_box'>
-      <pose>2.4 0.0 0.2 0.0 0.0 0.0</pose>
+      <pose>-0.6000000000000001 0.0 0.2 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1285,7 +1285,7 @@
       </link>
     </model>
     <model name='61_box'>
-      <pose>0.0 24.8 0.2 0.0 0.0 0.0</pose>
+      <pose>-3.0 24.8 0.2 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1305,7 +1305,7 @@
       </link>
     </model>
     <model name='62_box'>
-      <pose>0.0 -24.8 0.2 0.0 0.0 0.0</pose>
+      <pose>-3.0 -24.8 0.2 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1325,7 +1325,7 @@
       </link>
     </model>
     <model name='63_box'>
-      <pose>3.6 0.0 0.875 0.0 0.0 0.0</pose>
+      <pose>0.6000000000000001 0.0 0.875 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1345,7 +1345,7 @@
       </link>
     </model>
     <model name='64_box'>
-      <pose>-3.6 0.0 0.875 0.0 0.0 0.0</pose>
+      <pose>-6.6 0.0 0.875 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1365,7 +1365,7 @@
       </link>
     </model>
     <model name='65_box'>
-      <pose>0.0 26.4 0.875 0.0 0.0 0.0</pose>
+      <pose>-3.0 26.4 0.875 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1385,7 +1385,7 @@
       </link>
     </model>
     <model name='66_box'>
-      <pose>0.0 -26.4 0.875 0.0 0.0 0.0</pose>
+      <pose>-3.0 -26.4 0.875 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1405,7 +1405,7 @@
       </link>
     </model>
     <model name='67_cylinder'>
-      <pose>1.2 26.4 1.75 0.0 0.0 0.0</pose>
+      <pose>-1.8 26.4 1.75 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1426,7 +1426,7 @@
       </link>
     </model>
     <model name='68_cylinder'>
-      <pose>-1.2 26.4 1.75 0.0 0.0 0.0</pose>
+      <pose>-4.2 26.4 1.75 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1447,7 +1447,7 @@
       </link>
     </model>
     <model name='69_cylinder'>
-      <pose>2.0 26.4 1.525 0.0 0.0 0.0</pose>
+      <pose>-1.0 26.4 1.525 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1468,7 +1468,7 @@
       </link>
     </model>
     <model name='70_cylinder'>
-      <pose>-2.0 26.4 1.525 0.0 0.0 0.0</pose>
+      <pose>-5.0 26.4 1.525 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1489,7 +1489,7 @@
       </link>
     </model>
     <model name='71_cylinder'>
-      <pose>2.8 26.4 1.3 0.0 0.0 0.0</pose>
+      <pose>-0.20000000000000018 26.4 1.3 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1510,7 +1510,7 @@
       </link>
     </model>
     <model name='72_cylinder'>
-      <pose>-2.8 26.4 1.3 0.0 0.0 0.0</pose>
+      <pose>-5.8 26.4 1.3 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1531,7 +1531,7 @@
       </link>
     </model>
     <model name='73_cylinder'>
-      <pose>3.6 26.4 1.075 0.0 0.0 0.0</pose>
+      <pose>0.6000000000000001 26.4 1.075 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1552,7 +1552,7 @@
       </link>
     </model>
     <model name='74_cylinder'>
-      <pose>-3.6 26.4 1.075 0.0 0.0 0.0</pose>
+      <pose>-6.6 26.4 1.075 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1573,7 +1573,7 @@
       </link>
     </model>
     <model name='75_cylinder'>
-      <pose>0.0 26.4 3.1 0.0 -1.57 0.0</pose>
+      <pose>-3.0 26.4 3.1 0.0 -1.57 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1594,7 +1594,7 @@
       </link>
     </model>
     <model name='76_cylinder'>
-      <pose>0.4 26.4 3.225 0.0 0.0 0.0</pose>
+      <pose>-2.6 26.4 3.225 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1615,7 +1615,7 @@
       </link>
     </model>
     <model name='77_cylinder'>
-      <pose>-0.4 26.4 3.225 0.0 0.0 0.0</pose>
+      <pose>-3.4 26.4 3.225 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1636,7 +1636,7 @@
       </link>
     </model>
     <model name='78_cylinder'>
-      <pose>0.0 26.4 3.3 0.0 -1.57 0.0</pose>
+      <pose>-3.0 26.4 3.3 0.0 -1.57 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1657,7 +1657,7 @@
       </link>
     </model>
     <model name='79_cylinder'>
-      <pose>0.0 26.4 3.45 0.0 0.0 0.0</pose>
+      <pose>-3.0 26.4 3.45 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1678,7 +1678,7 @@
       </link>
     </model>
     <model name='80_cylinder'>
-      <pose>0.02 26.4 1.75 0.0 0.0 0.0</pose>
+      <pose>-2.98 26.4 1.75 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1699,7 +1699,7 @@
       </link>
     </model>
     <model name='81_cylinder'>
-      <pose>-0.02 26.4 1.75 0.0 0.0 0.0</pose>
+      <pose>-3.02 26.4 1.75 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1720,7 +1720,7 @@
       </link>
     </model>
     <model name='82_cylinder'>
-      <pose>0.625 26.4 1.3 0.0 1.57 0.0</pose>
+      <pose>-2.375 26.4 1.3 0.0 1.57 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1741,7 +1741,7 @@
       </link>
     </model>
     <model name='83_cylinder'>
-      <pose>-0.625 26.4 1.3 0.0 -1.57 0.0</pose>
+      <pose>-3.625 26.4 1.3 0.0 -1.57 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1762,7 +1762,7 @@
       </link>
     </model>
     <model name='84_cylinder'>
-      <pose>0.625 26.4 2.2 0.0 1.57 0.0</pose>
+      <pose>-2.375 26.4 2.2 0.0 1.57 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1783,7 +1783,7 @@
       </link>
     </model>
     <model name='85_cylinder'>
-      <pose>-0.625 26.4 2.2 0.0 -1.57 0.0</pose>
+      <pose>-3.625 26.4 2.2 0.0 -1.57 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1804,7 +1804,7 @@
       </link>
     </model>
     <model name='86_cylinder'>
-      <pose>0.625 26.4 3.1 0.0 1.57 0.0</pose>
+      <pose>-2.375 26.4 3.1 0.0 1.57 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1825,7 +1825,7 @@
       </link>
     </model>
     <model name='87_cylinder'>
-      <pose>-0.625 26.4 3.1 0.0 -1.57 0.0</pose>
+      <pose>-3.625 26.4 3.1 0.0 -1.57 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1846,7 +1846,7 @@
       </link>
     </model>
     <model name='88_cylinder'>
-      <pose>1.2 -26.4 1.75 0.0 0.0 0.0</pose>
+      <pose>-1.8 -26.4 1.75 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1867,7 +1867,7 @@
       </link>
     </model>
     <model name='89_cylinder'>
-      <pose>-1.2 -26.4 1.75 0.0 0.0 0.0</pose>
+      <pose>-4.2 -26.4 1.75 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1888,7 +1888,7 @@
       </link>
     </model>
     <model name='90_cylinder'>
-      <pose>2.0 -26.4 1.525 0.0 0.0 0.0</pose>
+      <pose>-1.0 -26.4 1.525 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1909,7 +1909,7 @@
       </link>
     </model>
     <model name='91_cylinder'>
-      <pose>-2.0 -26.4 1.525 0.0 0.0 0.0</pose>
+      <pose>-5.0 -26.4 1.525 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1930,7 +1930,7 @@
       </link>
     </model>
     <model name='92_cylinder'>
-      <pose>2.8 -26.4 1.3 0.0 0.0 0.0</pose>
+      <pose>-0.20000000000000018 -26.4 1.3 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1951,7 +1951,7 @@
       </link>
     </model>
     <model name='93_cylinder'>
-      <pose>-2.8 -26.4 1.3 0.0 0.0 0.0</pose>
+      <pose>-5.8 -26.4 1.3 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1972,7 +1972,7 @@
       </link>
     </model>
     <model name='94_cylinder'>
-      <pose>3.6 -26.4 1.075 0.0 0.0 0.0</pose>
+      <pose>0.6000000000000001 -26.4 1.075 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -1993,7 +1993,7 @@
       </link>
     </model>
     <model name='95_cylinder'>
-      <pose>-3.6 -26.4 1.075 0.0 0.0 0.0</pose>
+      <pose>-6.6 -26.4 1.075 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -2014,7 +2014,7 @@
       </link>
     </model>
     <model name='96_cylinder'>
-      <pose>0.0 -26.4 3.1 0.0 -1.57 0.0</pose>
+      <pose>-3.0 -26.4 3.1 0.0 -1.57 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -2035,7 +2035,7 @@
       </link>
     </model>
     <model name='97_cylinder'>
-      <pose>0.4 -26.4 3.225 0.0 0.0 0.0</pose>
+      <pose>-2.6 -26.4 3.225 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -2056,7 +2056,7 @@
       </link>
     </model>
     <model name='98_cylinder'>
-      <pose>-0.4 -26.4 3.225 0.0 0.0 0.0</pose>
+      <pose>-3.4 -26.4 3.225 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -2077,7 +2077,7 @@
       </link>
     </model>
     <model name='99_cylinder'>
-      <pose>0.0 -26.4 3.3 0.0 -1.57 0.0</pose>
+      <pose>-3.0 -26.4 3.3 0.0 -1.57 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -2098,7 +2098,7 @@
       </link>
     </model>
     <model name='100_cylinder'>
-      <pose>0.0 -26.4 3.45 0.0 0.0 0.0</pose>
+      <pose>-3.0 -26.4 3.45 0.0 0.0 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -2119,7 +2119,7 @@
       </link>
     </model>
     <model name='101_box'>
-      <pose>2.95 0.0 2.2 0.0 -0.95 0.0</pose>
+      <pose>-0.04999999999999982 0.0 2.2 0.0 -0.95 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -2139,7 +2139,7 @@
       </link>
     </model>
     <model name='102_box'>
-      <pose>1.75 0.0 2.9 0.0 -1.15 0.0</pose>
+      <pose>-1.25 0.0 2.9 0.0 -1.15 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -2159,7 +2159,7 @@
       </link>
     </model>
     <model name='103_box'>
-      <pose>0.75 0.0 3.25 0.0 -1.35 0.0</pose>
+      <pose>-2.25 0.0 3.25 0.0 -1.35 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -2179,7 +2179,7 @@
       </link>
     </model>
     <model name='104_box'>
-      <pose>-2.95 0.0 2.2 0.0 0.95 0.0</pose>
+      <pose>-5.95 0.0 2.2 0.0 0.95 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -2199,7 +2199,7 @@
       </link>
     </model>
     <model name='105_box'>
-      <pose>-1.75 0.0 2.9 0.0 1.15 0.0</pose>
+      <pose>-4.75 0.0 2.9 0.0 1.15 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -2219,7 +2219,7 @@
       </link>
     </model>
     <model name='106_box'>
-      <pose>-0.75 0.0 3.25 0.0 1.35 0.0</pose>
+      <pose>-3.75 0.0 3.25 0.0 1.35 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -2239,7 +2239,7 @@
       </link>
     </model>
     <model name='107_box'>
-      <pose>0.5 0.0 3.45 0.0 -1.35 0.0</pose>
+      <pose>-2.5 0.0 3.45 0.0 -1.35 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
@@ -2259,7 +2259,1102 @@
       </link>
     </model>
     <model name='108_box'>
-      <pose>-0.5 0.0 3.45 0.0 1.35 0.0</pose>
+      <pose>-3.5 0.0 3.45 0.0 1.35 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <box>
+              <size>0.025 52.8 1.0</size>
+            </box>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/BlueTransparentOverlay</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='109_plane'>
+      <pose>-11.0 0.0 0.01 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>7.2 52.8</size>
+            </plane>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='110_box'>
+      <pose>-13.4 0.0 0.2 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <box>
+              <size>0.8 44.8 0.4</size>
+            </box>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/GreenTransparent</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='111_box'>
+      <pose>-11.8 0.0 0.2 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <box>
+              <size>0.8 44.8 0.4</size>
+            </box>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/GreenTransparent</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='112_box'>
+      <pose>-10.2 0.0 0.2 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <box>
+              <size>0.8 44.8 0.4</size>
+            </box>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/GreenTransparent</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='113_box'>
+      <pose>-8.6 0.0 0.2 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <box>
+              <size>0.8 44.8 0.4</size>
+            </box>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/GreenTransparent</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='114_box'>
+      <pose>-11.0 24.8 0.2 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <box>
+              <size>7.2 3.2 0.4</size>
+            </box>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Blue</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='115_box'>
+      <pose>-11.0 -24.8 0.2 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <box>
+              <size>7.2 3.2 0.4</size>
+            </box>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Blue</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='116_box'>
+      <pose>-7.4 0.0 0.875 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <box>
+              <size>0.025 52.8 1.75</size>
+            </box>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/BlackTransparent</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='117_box'>
+      <pose>-14.6 0.0 0.875 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <box>
+              <size>0.025 52.8 1.75</size>
+            </box>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/BlackTransparent</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='118_box'>
+      <pose>-11.0 26.4 0.875 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <box>
+              <size>7.2 0.025 1.75</size>
+            </box>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/BlackTransparent</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='119_box'>
+      <pose>-11.0 -26.4 0.875 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <box>
+              <size>7.2 0.025 1.75</size>
+            </box>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/BlackTransparent</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='120_cylinder'>
+      <pose>-9.8 26.4 1.75 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>2.7</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='121_cylinder'>
+      <pose>-12.2 26.4 1.75 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>2.7</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='122_cylinder'>
+      <pose>-9.0 26.4 1.525 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>2.25</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='123_cylinder'>
+      <pose>-13.0 26.4 1.525 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>2.25</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='124_cylinder'>
+      <pose>-8.2 26.4 1.3 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>1.8</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='125_cylinder'>
+      <pose>-13.8 26.4 1.3 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>1.8</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='126_cylinder'>
+      <pose>-7.4 26.4 1.075 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>1.35</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='127_cylinder'>
+      <pose>-14.6 26.4 1.075 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>1.35</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='128_cylinder'>
+      <pose>-11.0 26.4 3.1 0.0 -1.57 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>2.45</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='129_cylinder'>
+      <pose>-10.6 26.4 3.225 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>0.25</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='130_cylinder'>
+      <pose>-11.4 26.4 3.225 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>0.25</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='131_cylinder'>
+      <pose>-11.0 26.4 3.3 0.0 -1.57 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>0.8</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='132_cylinder'>
+      <pose>-11.0 26.4 3.45 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>0.25</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='133_cylinder'>
+      <pose>-10.98 26.4 1.75 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>2.75</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='134_cylinder'>
+      <pose>-11.02 26.4 1.75 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>2.75</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='135_cylinder'>
+      <pose>-10.375 26.4 1.3 0.0 1.57 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>1.2</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='136_cylinder'>
+      <pose>-11.625 26.4 1.3 0.0 -1.57 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>1.2</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='137_cylinder'>
+      <pose>-10.375 26.4 2.2 0.0 1.57 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>1.2</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='138_cylinder'>
+      <pose>-11.625 26.4 2.2 0.0 -1.57 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>1.2</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='139_cylinder'>
+      <pose>-10.375 26.4 3.1 0.0 1.57 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>1.2</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='140_cylinder'>
+      <pose>-11.625 26.4 3.1 0.0 -1.57 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>1.2</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='141_cylinder'>
+      <pose>-9.8 -26.4 1.75 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>2.7</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='142_cylinder'>
+      <pose>-12.2 -26.4 1.75 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>2.7</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='143_cylinder'>
+      <pose>-9.0 -26.4 1.525 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>2.25</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='144_cylinder'>
+      <pose>-13.0 -26.4 1.525 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>2.25</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='145_cylinder'>
+      <pose>-8.2 -26.4 1.3 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>1.8</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='146_cylinder'>
+      <pose>-13.8 -26.4 1.3 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>1.8</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='147_cylinder'>
+      <pose>-7.4 -26.4 1.075 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>1.35</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='148_cylinder'>
+      <pose>-14.6 -26.4 1.075 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>1.35</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='149_cylinder'>
+      <pose>-11.0 -26.4 3.1 0.0 -1.57 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>2.45</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='150_cylinder'>
+      <pose>-10.6 -26.4 3.225 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>0.25</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='151_cylinder'>
+      <pose>-11.4 -26.4 3.225 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>0.25</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='152_cylinder'>
+      <pose>-11.0 -26.4 3.3 0.0 -1.57 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>0.8</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='153_cylinder'>
+      <pose>-11.0 -26.4 3.45 0.0 0.0 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <cylinder>
+              <radius>0.025</radius>
+              <length>0.25</length>
+            </cylinder>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/Grey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='154_box'>
+      <pose>-8.05 0.0 2.2 0.0 -0.95 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <box>
+              <size>0.025 52.8 1.6</size>
+            </box>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/BlueTransparentOverlay</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='155_box'>
+      <pose>-9.25 0.0 2.9 0.0 -1.15 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <box>
+              <size>0.025 52.8 1.2</size>
+            </box>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/BlueTransparentOverlay</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='156_box'>
+      <pose>-10.25 0.0 3.25 0.0 -1.35 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <box>
+              <size>0.025 52.8 1.0</size>
+            </box>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/BlueTransparentOverlay</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='157_box'>
+      <pose>-13.95 0.0 2.2 0.0 0.95 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <box>
+              <size>0.025 52.8 1.6</size>
+            </box>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/BlueTransparentOverlay</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='158_box'>
+      <pose>-12.75 0.0 2.9 0.0 1.15 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <box>
+              <size>0.025 52.8 1.2</size>
+            </box>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/BlueTransparentOverlay</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='159_box'>
+      <pose>-11.75 0.0 3.25 0.0 1.35 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <box>
+              <size>0.025 52.8 1.0</size>
+            </box>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/BlueTransparentOverlay</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='160_box'>
+      <pose>-10.5 0.0 3.45 0.0 -1.35 0.0</pose>
+      <static>1</static>
+      <link name='link'>
+        <visual name='visual'> 
+          <geometry>
+            <box>
+              <size>0.025 52.8 1.0</size>
+            </box>
+          </geometry> 
+          <material>
+            <script>
+              <name>Gazebo/BlueTransparentOverlay</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+ 
+      </link>
+    </model>
+    <model name='161_box'>
+      <pose>-11.5 0.0 3.45 0.0 1.35 0.0</pose>
       <static>1</static>
       <link name='link'>
         <visual name='visual'> 
