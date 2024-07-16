@@ -1,0 +1,17 @@
+material swath1
+{
+  technique
+  {
+    pass
+    {
+      cull_hardware none
+      cull_software none
+
+      texture_unit
+      {
+        texture vine1_texture.jpg
+      }
+    }
+  }
+}
+
